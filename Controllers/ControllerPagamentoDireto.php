@@ -1,6 +1,6 @@
 <?php
-$Data["email"]="marcoz.iu@gmail.com"; // SEU EMAIL CADASTRADO NO PAGSEGURO
-$Data["token"]="2EC7301A95204821A3E2E66D4FEC6747"; // SEU TOKEN DO SANDBOX DO PAGSEGURO
+$Data["email"]="marcoz.iu@gmail.com";
+$Data["token"]="2EC7301A95204821A3E2E66D4FEC6747";
 $Data["currency"]="BRL";
 $Data["itemId1"]="1";
 $Data["itemDescription1"]="Website desenvolvido por Marcos Ribeiro.";
@@ -11,7 +11,7 @@ $Data["reference"]="83783783737";
 $Data["senderName"]="João da Silva";
 $Data["senderAreaCode"]="37";
 $Data["senderPhone"]="99999999";
-$Data["senderEmail"]="c41888325033406655241@sandbox.pagseguro.com.br"; // SEU COMPRADOR DE TESTES
+$Data["senderEmail"]="c41888325033406655241@sandbox.pagseguro.com.br";
 $Data["shippingType"]="1";
 $Data["shippingAddressStreet"]="RUA SEM NOME";
 $Data["shippingAddressNumber"]="10";
@@ -36,3 +36,4 @@ curl_close($Curl);
 
 $Xml=simplexml_load_string($Retorno);
 echo $Xml->code;
+?>
