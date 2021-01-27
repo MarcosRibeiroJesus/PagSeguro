@@ -1,5 +1,5 @@
 <?php
-define("EMAIL_PAGSEGURO","marcoz.iu@gmail.com");
+define("EMAIL_PAGSEGURO","seu_email@gmail.com");
 define("TOKEN_PAGSEGURO","SEU TOKEN DE PRODUÇÃO");
-define("TOKEN_SANDBOX","2EC7301A95204821A3E2E66D4FEC6747");
+define("TOKEN_SANDBOX","SEU TOKEN SANDBOX");
 ?>
